@@ -1,8 +1,8 @@
-# 物体検出デモ（YOLOv8）
+# 物体検出デモ（YOLO11）
 
 ## 概要
 
-このリポジトリは、YOLOv8（Ultralytics YOLO）を用いた画像の物体検出デモです。  
+このリポジトリは、YOLO11（Ultralytics YOLO）を用いた画像の物体検出デモです。  
 `main.py` を実行することで、サンプル画像（例: `sample000.jpg`）に対して物体検出を行い、検出結果を画像（`output.jpg`）として保存します。
 
 ## ファイル構成
@@ -28,11 +28,11 @@
 
 詳細は[Ultralyticsのドキュメント](https://docs.ultralytics.com/ja/tasks/detect/#models)を参照してください。パラメータの数が大きければ大きいほど、精度は高くなりますが、処理速度は遅くなります。
 
-- `yolo11n.pt` は YOLOv8 Nano モデルで、軽量で高速な物体検出が可能です。
-- `yolo11s.pt` は YOLOv8 Small モデルで、精度と速度のバランスが良いです。
-- `yolo11m.pt` は YOLOv8 Medium モデルで、より高い精度を提供します。
-- `yolo11l.pt` は YOLOv8 Large モデルで、さらに高い精度を提供しますが、処理速度は遅くなります。
-- `yolo11x.pt` は YOLOv8 Extra Large モデルで、最高の精度を提供しますが、最も重く、処理速度は最も遅くなります。
+- `yolo11n.pt` は YOLO11 Nano モデルで、軽量で高速な物体検出が可能です。
+- `yolo11s.pt` は YOLO11 Small モデルで、精度と速度のバランスが良いです。
+- `yolo11m.pt` は YOLO11 Medium モデルで、より高い精度を提供します。
+- `yolo11l.pt` は YOLO11 Large モデルで、さらに高い精度を提供しますが、処理速度は遅くなります。
+- `yolo11x.pt` は YOLO11 Extra Large モデルで、最高の精度を提供しますが、最も重く、処理速度は最も遅くなります。
 
 ## 動作確認環境
 
