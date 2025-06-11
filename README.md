@@ -80,6 +80,7 @@
 ## カスタマイズ
 
 - `main.py` 内の `image_path` を変更することで、任意の画像で物体検出が可能です。
+-  `main.py`の`cv2.imwrite("output.jpg", img)`の行の`output.jpg`を変えると検出結果を別ファイルに保存することができます。
 
 ## ライセンス
 
